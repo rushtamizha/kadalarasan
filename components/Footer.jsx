@@ -30,7 +30,6 @@ const Footer = () => {
       name: "Package",
       slug: "package",
       items: [
-        "Honeymoon Package",
         "Group Package",
         "Family Package",
         "Glimpses Of Andaman",

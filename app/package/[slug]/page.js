@@ -12,49 +12,11 @@ import {
 } from "react-icons/io5";
 
 const PackageHub = () => {
-  const [activeTab, setActiveTab] = useState("Honeymoon");
+  const [activeTab, setActiveTab] = useState("Group");
 
-  const categories = ["Honeymoon", "Group", "Family", "Glimpses"];
+  const categories = [ "Group", "Family", "Glimpses"];
 
   const allPackages = {
-    Honeymoon: [
-      {
-        name: "Mesmerizing Honeymoon",
-        duration: "3 Nights / 4 Days",
-        price: "₹24,500",
-        img: "/package/honeymoon-package/honymoon1.jpg",
-      },
-      {
-        name: "Romantic Holiday",
-        duration: "4 Nights / 5 Days",
-        price: "₹32,000",
-        img: "/package/honeymoon-package/honymoon2.jpg",
-      },
-      {
-        name: "Honeymoon Pleasure",
-        duration: "5 Nights / 6 Days",
-        price: "₹45,000",
-        img: "/package/honeymoon-package/honymoon3.jpg",
-      },
-      {
-        name: "Exotic Honeymoon Beaches",
-        duration: "6 Nights / 7 Days",
-        price: "₹52,000",
-        img: "/package/honeymoon-package/honymoon4.jpg",
-      },
-      {
-        name: "Island Paradise",
-        duration: "7 Nights / 8 Days",
-        price: "₹65,000",
-        img: "/package/honeymoon-package/honymoon5.jpg",
-      },
-      {
-        name: "Island Delight",
-        duration: "8 Nights / 9 Days",
-        price: "₹74,000",
-        img: "/package/honeymoon-package/honymoon6.jpg",
-      },
-    ],
     Group: [
       {
         name: "Mesmerizing Group",

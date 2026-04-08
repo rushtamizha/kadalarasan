@@ -18,7 +18,6 @@ export const navLinks = [
   {
     title: "Packages",
     dropdown: [
-      { title: "Honeymoon Package", path: "/packages/honeymoon" },
       { title: "Group Package", path: "/packages/group" },
       { title: "Family Package", path: "/packages/family" },
       { title: "Glimpses Of Andaman Package", path: "/packages/glimpses" },

@@ -21,7 +21,7 @@ const Testimonials = () => {
     {
       name: "Priya Sharma",
       location: "Delhi",
-      text: "Our honeymoon was magical. Havelock stays suggested by Kadalarasan tour & travels  were breathtaking. Highly recommend their premium packages!",
+      text: "Our Day was magical. Havelock stays suggested by Kadalarasan tour & travels  were breathtaking. Highly recommend their premium packages!",
       rating: 5,
       image: "https://i.pravatar.cc/150?u=priya",
     },

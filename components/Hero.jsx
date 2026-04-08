@@ -22,7 +22,7 @@ const AndamanHero = () => {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
-    package: "Honeymoon Special",
+    package: " Special",
     hotelCategory: "4 Star (Premium)",
     adults: 2,
     infants: 0,
@@ -150,7 +150,7 @@ const handleWhatsAppSubmit = (e) => {
                   className="w-full bg-blue-50/50 border border-blue-100 rounded-2xl py-4 pl-12 pr-4 text-blue-950 appearance-none focus:outline-none shadow-inner-sm"
                   onChange={(e) => setFormData({...formData, package: e.target.value})}
                 >
-                  <option className="bg-white">Honeymoon Pkg</option>
+                  
                   <option className="bg-white">Family Pkg</option>
                   <option className="bg-white">Adventure Pkg</option>
                 </select>

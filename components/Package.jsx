@@ -22,20 +22,6 @@ import {
 const PackageSection = () => {
   const packages = [
     {
-      title: "Mesmerizing Honeymoon Package",
-      duration: "3 Nights / 4 Days",
-      price: "18,500",
-      image: "/package/honeymoon-package/honymoon1.jpg",
-      tag: "Honeymoon Special",
-    },
-    {
-      title: "Romantic Holiday in Andaman",
-      duration: "4 Nights / 5 Days",
-      price: "24,000",
-      image: "/package/honeymoon-package/honymoon2.jpg",
-      tag: "Trending",
-    },
-    {
       title: "Andaman Family Pleasure",
       duration: "5 Nights / 6 Days",
       price: "32,000",

@@ -58,7 +58,7 @@ const AndamanNavbar = () => {
       slug: "package", // Used for the URL base
       icon: <Package size={14} />,
       items: [
-        "Honeymoon Package", "Group Package", "Family Package", "Glimpses Of Andaman",
+         "Group Package", "Family Package", "Glimpses Of Andaman",
       ],
     },
     {

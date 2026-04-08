@@ -20,9 +20,9 @@ const geistMono = Geist_Mono({
 
 // High-Ranking SEO Metadata
 export const metadata = {
-  title: "Kadal Arasan Tours & Travels | Best Andaman Honeymoon & Tour Packages",
+  title: "Kadal Arasan Tours & Travels | Best Andaman Tour Packages",
   description: "Book your dream Andaman holiday with Kadal Arasan Tours. Exclusive packages for Havelock, Neil Island, and Port Blair. Best price guaranteed.",
-  keywords: ["Andaman tour packages", "Kadal Arasan", "Honeymoon in Andaman", "Havelock Island ferry", "Sri Vijayapuram tours"],
+  keywords: ["Andaman tour packages", "Kadal Arasan", " in Andaman", "Havelock Island ferry", "Sri Vijayapuram tours"],
   metadataBase: new URL('https://kadal-arasan.in'),
   icons: {
     icon: '/logo.jpg', // Standard favicon
