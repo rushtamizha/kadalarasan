@@ -82,7 +82,7 @@ const AndamanNavbar = () => {
   ];
 
   return (
-    <nav className="fixed top-6 w-full flex justify-center px-4 z-[999]">
+    <nav className="fixed top-5 w-full flex justify-center px-4 z-[999]">
       <motion.div
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -96,8 +96,8 @@ const AndamanNavbar = () => {
             <img src="/logo.jpg" alt="Logo" className="h-full w-full object-cover rounded-full" />
           </div>
           <div className="flex flex-col justify-center leading-tight">
-            <h1 className={`text-xl font-black tracking-tighter uppercase ${scrolled ? "text-blue-900" : "text-blue-800"}`}>
-              Kadalarasan <span className="text-blue-500">tour</span>
+            <h1 className={`text-sm sm:text-xl font-black tracking-tighter uppercase ${scrolled ? "text-blue-900" : "text-blue-800"}`}>
+              Kadalarasan <span className="text-blue-500">tours </span>
             </h1>
             <p className="text-[9px] font-bold tracking-[0.3em] text-gray-500 uppercase">Escape to Paradise</p>
           </div>
@@ -150,7 +150,10 @@ const AndamanNavbar = () => {
         {/* RIGHT CTA */}
         <div className="hidden lg:block px-2">
           <button
-            onClick={() => handleWhatsApp("Full Package Inquiry")}
+            onClick={() => {
+              router.push('/contact')
+              setIsMobileOpen(false)
+            }}
             className="bg-blue-900 text-white px-8 py-3 rounded-full text-sm font-black hover:bg-blue-600 transition-all shadow-lg flex items-center gap-2"
           >
             <MessageCircle size={16} /> Contact Us
@@ -200,6 +203,15 @@ const AndamanNavbar = () => {
                   </div>
                 </div>
               ))}
+              <button
+            onClick={() => {
+              router.push('/contact')
+              setIsMobileOpen(false)
+            }}
+            className="bg-blue-900 text-white px-8 py-3 rounded-full text-sm font-black hover:bg-blue-600 transition-all shadow-lg flex items-center gap-2"
+          >
+            <MessageCircle size={16} /> Contact Us
+          </button>
             </div>
           </motion.div>
         )}

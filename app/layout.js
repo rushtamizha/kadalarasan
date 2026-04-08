@@ -3,6 +3,8 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AutoSlidingGallery from "@/components/Gallery";
+import ContactButton from "@/components/WhatsAppButton";
+import SpecialOfferPopup from "@/components/SpecialOfferPopup";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,13 +24,17 @@ export const metadata = {
   description: "Book your dream Andaman holiday with Kadal Arasan Tours. Exclusive packages for Havelock, Neil Island, and Port Blair. Best price guaranteed.",
   keywords: ["Andaman tour packages", "Kadal Arasan", "Honeymoon in Andaman", "Havelock Island ferry", "Sri Vijayapuram tours"],
   metadataBase: new URL('https://kadal-arasan.in'),
+  icons: {
+    icon: '/logo.jpg', // Standard favicon
+    apple: '/logo.jpg', // For iPhone home screens
+  },
   alternates: { canonical: '/' },
   openGraph: {
     title: "Kadal Arasan Tours & Travels | Andaman Island Experts",
     description: "Premium Andaman Tour Operator. Experience luxury and adventure.",
     url: 'https://kadal-arasan.in',
     siteName: 'Kadal Arasan Tours',
-    images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
+    images: [{ url: '/banner.jpg', width: 1200, height: 630 }],
     locale: 'en_IN',
     type: 'website',
   },
@@ -57,12 +63,12 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} scroll-smooth antialiased`}
     >
-      <head>
+        <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-      </head>
+      </head> 
       <body className="flex flex-col min-h-screen selection:bg-blue-600 selection:text-white">
         <Navbar />
         {/* main ensures Google sees the central content correctly */}
@@ -70,6 +76,8 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <AutoSlidingGallery/>
+        <ContactButton/>
+        <SpecialOfferPopup/>
         <Footer />
       </body>
     </html>
