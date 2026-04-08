@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Block private folders
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+
+# Host and Sitemap location
+Host: https://kadal-arasan.in
+Sitemap: https://kadal-arasan.in/sitemap.xml
