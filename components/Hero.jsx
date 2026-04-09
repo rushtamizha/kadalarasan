@@ -103,7 +103,7 @@ const handleWhatsAppSubmit = (e) => {
             <div className="flex -space-x-3">
               {[1,2,3,4].map(i => (
                 <div key={i} className="h-10 w-10 rounded-full border-2 border-white bg-gray-300 overflow-hidden shadow-lg">
-                  <img src={`https://i.pravatar.cc/100?img=${i+15}`} alt="user" />
+                  <img src={`https://static.vecteezy.com/system/resources/previews/051/270/245/non_2x/cartoon-people-avatar-minimalist-human-avatar-versatile-icon-for-online-projects-an-avatar-for-the-profile-picture-of-someone-vector.jpg`} alt="user" />
                 </div>
               ))}
             </div>
