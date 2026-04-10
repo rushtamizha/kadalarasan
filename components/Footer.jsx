@@ -129,8 +129,8 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="hidden items-center gap-4">
-              <div className="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center text-blue-600 border border-gray-100">
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 rounded-2xl bg-blue-600 flex items-center justify-center text-white border border-gray-100">
                 <IoMailOutline size={20} />
               </div>
               <div>
