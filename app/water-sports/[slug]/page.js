@@ -12,11 +12,10 @@ import {
 const WaterSportsHub = () => {
   const sports = [
     { name: "Scuba Diving", slug: "scuba-diving", thrill: "High", tag: "Deep Sea", img: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=800" },
-    { name: "Sea Kart", slug: "sea-kart", thrill: "Medium", tag: "Self-Drive", img: "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?q=80&w=800" },
-    { name: "Parasailing", slug: "parasailing", thrill: "High", tag: "Sky View", img: "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?q=80&w=800" },
-    { name: "Jet Ski Ride", slug: "jet-ski-ride", thrill: "Medium", tag: "Speed", img: "https://images.unsplash.com/photo-1605281317010-fe5ffe798156?q=80&w=800" },
-    { name: "Snorkelling", slug: "snorkelling", thrill: "Low", tag: "Surface View", img: "https://images.unsplash.com/photo-1518467166778-b88f373ffec7?q=80&w=800" },
-    { name: "Sofa Ride", slug: "sofa-ride", thrill: "Medium", tag: "Family Fun", img: "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=800" },
+    { name: "Sea Walk", slug: "scuba-diving", thrill: "High", tag: "Deep Sea", img: "https://site.outlookindia.com/traveller/wp-content/uploads/2016/07/bora-bora-aqua-safari.jpg" },
+    { name: "Semi Submarine", slug: "semi-submarine", thrill: "Medium", tag: "Self-Drive", img: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Penguin_2.0_Gocean.JPG" },
+    { name: "Kayaking", slug: "kayaking", thrill: "Medium", tag: "Self-Drive", img: "https://res.cloudinary.com/gofjords-com/images/w_2560,h_1707,c_scale/f_auto,q_auto:eco/v1683890721/Experiences/XXLofoten/Kayaking/Evening%20kayaking%202020/Evening-kayaking-Svolvaer-Lofoten-XXlofoten-1/Evening-kayaking-Svolvaer-Lofoten-XXlofoten-1.jpg?_i=AA" },
+    { name: "Snorkelling", slug: "snorkelling", thrill: "Low", tag: "Surface View", img: "https://images.unsplash.com/photo-1518467166778-b88f373ffec7?q=80&w=800" }
   ];
 
   const handleWhatsApp = (name) => {

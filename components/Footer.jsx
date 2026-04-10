@@ -138,7 +138,7 @@ const Footer = () => {
                   Email Us
                 </p>
                 <p className="text-sm font-black text-blue-950 lowercase">
-                  info@kadalarasantours.com
+                  Kadalarasantours@gmail.com
                 </p>
               </div>
             </div>
