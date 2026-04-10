@@ -18,7 +18,7 @@ const AutoSlidingGallery = () => {
     { src: "/gallery/andamanhgg.jpg", label: "06" },
     { src: "/gallery/b4.jpg", label: "07" },
     { src: "/gallery/ross-island-andamans-india-37673933.webp", label: "08" },
-    { src: "/gallery/Ross-Island.jpg", label: "09" },
+    { src: "/DEERS_IN_ROSS_ISLAND_IN_ANDAMAN_AND_NICOBAR_ISLAND.jpg", label: "09" },
   ];
 
   return (

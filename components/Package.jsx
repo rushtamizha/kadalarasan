@@ -60,7 +60,7 @@ const PackageSection = () => {
       title: "Group Delight Package",
       duration: "8 Nights / 9 Days",
       price: "15,900",
-      image: "/package/glimpses-package/glimpses2.jpg",
+      image: "/package/glimpses-package/5fcf67c8a8fdcgrop.jpg",
       tag: "Trending",
     },
   ];

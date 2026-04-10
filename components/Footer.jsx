@@ -77,7 +77,7 @@ const Footer = () => {
 
             <div className="flex gap-4">
               <a
-                href="https://www.instagram.com/kadal_arasan_2024"
+                href="https://www.instagram.com/kadal_arasan_tours"
                 target="_blank"
                 className="w-11 h-11 rounded-xl bg-blue-50 flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition-all shadow-sm"
               >

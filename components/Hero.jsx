@@ -101,9 +101,9 @@ const handleWhatsAppSubmit = (e) => {
           
           <div className="flex items-center gap-6 pt-4">
             <div className="flex -space-x-3">
-              {[1,2,3,4].map(i => (
+              {["https://static.vecteezy.com/system/resources/previews/051/270/245/non_2x/cartoon-people-avatar-minimalist-human-avatar-versatile-icon-for-online-projects-an-avatar-for-the-profile-picture-of-someone-vector.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkkI5rTVWm1Qo_b10qcSbY1EJ0PBjTJqUq5Q&s","https://cdn-icons-png.flaticon.com/512/4202/4202841.png","https://static.vecteezy.com/system/resources/thumbnails/002/002/403/small/man-with-beard-avatar-character-isolated-icon-free-vector.jpg"].map(i => (
                 <div key={i} className="h-10 w-10 rounded-full border-2 border-white bg-gray-300 overflow-hidden shadow-lg">
-                  <img src={`https://static.vecteezy.com/system/resources/previews/051/270/245/non_2x/cartoon-people-avatar-minimalist-human-avatar-versatile-icon-for-online-projects-an-avatar-for-the-profile-picture-of-someone-vector.jpg`} alt="user" />
+                  <img src={i} alt="user" />
                 </div>
               ))}
             </div>
